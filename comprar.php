@@ -20,10 +20,12 @@ MercadoPagoConfig::setRuntimeEnviroment(MercadoPagoConfig::LOCAL);
 $client = new PreferenceClient();
 $preference = $client->create([
   "items"=> array(
-        array(
+        array("id" => "001",
+        "description" => "Um produto bem produtado",
         "title" => "{$_GET['t']}",
         "quantity" => 1,
-        "unit_price" => (double)$_GET['v']
+        "unit_price" => (double)$_GET['v'],
+        "picture_url" => "http://{$_SERVER['HTTP_HOST']}/vestido.jpg",
         )
     ),
     "payment_methods" => array(
