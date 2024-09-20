@@ -38,10 +38,10 @@
         <div class="card">
             <img src="vestido.jpg" /><br />
             <p> Otimo vestido feito na Suíça do norte, proximo a estação central da modlávia</p>
-            <p> R$ 350,00 </p>
+            <p> R$ 450,00 </p>
             <a href="comprar.php?t=vestido&v=350&foto=vestido.jpg"><button>Adicionar ao carrinho</button></a>
         </div>
 
-    </div> 
+    </div>
 </body>
 </html>

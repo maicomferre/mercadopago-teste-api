@@ -20,7 +20,7 @@ MercadoPagoConfig::setRuntimeEnviroment(MercadoPagoConfig::LOCAL);
 $client = new PreferenceClient();
 $preference = $client->create([
   "items"=> array(
-        array("id" => "001",
+        array("id" => "0031",
         "description" => "Um produto bem produtado",
         "title" => "{$_GET['t']}",
         "quantity" => 1,
@@ -48,7 +48,7 @@ $preference = $client->create([
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprar <?php echo $_GET['v']; ?></title>
+    <title>Comprar <?php echo $_GET['t']; ?></title>
     <style>
         h1,h3{ text-align:center;}
         header{background-color:green;}
