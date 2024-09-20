@@ -24,6 +24,7 @@ $preference = $client->create([
         "description" => "Um produto bem produtado",
         "title" => "{$_GET['t']}",
         "quantity" => 1,
+        "currency_id" => "BRL",
         "unit_price" => (double)$_GET['v'],
         "picture_url" => "http://{$_SERVER['HTTP_HOST']}/vestido.jpg",
         )
