@@ -1,0 +1,17 @@
+{
+    "name": "maicom/mercpago",
+    "autoload": {
+        "psr-4": {
+            "Maicom\\Mercpago\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maicom Ferreira",
+            "email": "maicomferre3242@gmail.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "^3.0"
+    }
+}
